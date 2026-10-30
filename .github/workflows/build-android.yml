@@ -6,7 +6,7 @@ name: Build Android APK (Portail Membre)
 on:
   workflow_dispatch:
   push:
-    branches: [ai_main_3ada1b77b7b24622a38d]
+    branches: [Master]
 
 jobs:
   build-apk:
